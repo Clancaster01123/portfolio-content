@@ -13,7 +13,7 @@ ts = np.linspace(tinitial,tfinal,num=nts+1)
 Y = np.zeros(len(ts))
 t = 0.5
 
-def FINER(y):
+def FINER(y):                       #define Euler derivative function
     a = 0.5
     eps = 0.01
     dif = 1
